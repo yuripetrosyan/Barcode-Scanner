@@ -1,13 +1,8 @@
-//
-//  ContentView.swift
-//  Barcode Scanner
-//
-//  Created by Yuri Petrosyan on 01/02/2024.
-//
+
 
 import SwiftUI
 
-struct ContentView: View {
+struct BarcodeScannerView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +15,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    BarcodeScannerView()
 }
